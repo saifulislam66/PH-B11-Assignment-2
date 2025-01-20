@@ -204,6 +204,29 @@
     cursor: pointer;
     font-size: 18px;
 }
+
+.arrow-btns{
+    text-align: center;
+    margin-top: 45px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-btns a{
+    background: #FEA301;
+    color: #fff;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+
 /* responsive for mobile  */
 
 
@@ -228,6 +251,8 @@
         font-size: 35px;
         color: var(--titlecolor);
      }
+
+
  
 
     /* banner  */
@@ -256,8 +281,24 @@
         width: 336px;
     }
 
-  
+    /* curriculum section  */
+    .Curriculum {
+        padding: 0 20px;
+    }
+    .Curriculum h1{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
     
+    .Curriculum .cards{
+        flex-direction: column;
+    }
+    .arrow-btns{
+        display: none;
+    }
     
    } 
+
+
+   /* footer section  */
    
