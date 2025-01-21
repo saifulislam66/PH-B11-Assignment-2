@@ -502,11 +502,11 @@
   }
   .banner .banner-content h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
   }
   .banner .banner-content h1 .em,
   .banner .banner-content h1 .tv {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .banner .banner-img {
@@ -517,7 +517,8 @@
     height: 100px;
   }
   .marquee-content {
-    font-size: 90px;
+    font-size: 80px;
+    padding: 0;
   }
   /* curriculum section  */
   .Curriculum {
