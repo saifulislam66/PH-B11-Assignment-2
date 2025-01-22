@@ -478,7 +478,7 @@
     margin: 0 auto;
   }
   .header nav {
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-bottom: 1px solid #fea301;
   }
   .header nav ul {
@@ -498,7 +498,7 @@
 
   .banner {
     
-    padding: 0 10px;
+    padding: 20px 20px;
     flex-direction: column;
     align-items: center;
     flex-direction: column-reverse;
@@ -518,10 +518,11 @@
     font-size: 30px;
   }
   .banner .banner-content p {
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
   }
   .banner .banner-img {
-    width: 310px;
+    width: 300px;
     margin-top: 30px;
   }
   /* marquee  */
